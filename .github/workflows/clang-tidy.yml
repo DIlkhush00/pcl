@@ -6,7 +6,7 @@ jobs:
   tidy:
     runs-on: ubuntu-latest
     container:
-      image: pointcloudlibrary/env:22.04
+      image: pointcloudlibrary/env:22.04 
     
     steps:
     - uses: actions/checkout@v3
